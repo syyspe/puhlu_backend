@@ -1,0 +1,14 @@
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+    "name": "Testi Henkilö",
+    "number": "050-666666",
+    "EXTRA": "666" 
+}
+
+// To test:
+// 1. Leave name/number out, or set to empty string or null
+// 2. Change "name" to "namex" etc.
+// 3. Add extra stuff to person object
+// 4. Create person with a name that is already added (run twice with same name)
