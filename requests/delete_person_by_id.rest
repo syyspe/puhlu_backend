@@ -1,4 +1,5 @@
-DELETE http://localhost:3001/api/persons/2
+DELETE http://localhost:3001/api/persons/5b1173d560c17d3abc36534e
 
-// No other testing required, 204 is returned whether
-// a person with given id existed or not
+// should return 500 in case of failure (invalid id fromat),
+// otherwise 204 with no content regardless if the person 
+// existed or not
